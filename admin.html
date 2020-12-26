@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon-->
+    <link rel="icon" href="#" type="image/icon" sizes="16x16">
+    
+    <!--M Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Admin</title>
+</head>
+<body>
+    <section class="fnavbar">
+    <nav class="nav-fixed">
+        <div class="nav-wrapper">
+          <a href="admin.html" class="brand-logo">ADMIN</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="btn-floating btn-large waves-effect waves-light red" href="#" onmouseover="toggleModal();"><i class="material-icons">add</i></a></li>
+            <!--<li><a href="index.html">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+            <li><a class="waves-effect waves-light btn button-first" href="login.html">Login</a></li>
+            <li><a class="waves-effect btn button-second" href="signup.html">Sign up</a></li>-->
+          </ul>
+        </div>
+        
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+           <!-- <li><a href="#" onclick="toggleModal();">Home</a></li>
+            <li><a href="#" onclick="toggleModal();">About Us</a></li>
+            <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+            <li><a class="waves-effect waves-light btn side-nav" href="login.html">Login</a></li>
+            <li><a class="waves-effect waves-light btn side-nav" href="signup.html">Sign up</a></li>-->
+      </ul>
+    </section>    
+
+
+    <section class="description">
+        <div class="section white center">
+            <h3> Client Details</h3>
+            <div class="row container center ">
+               <div class="col center l6 s12">
+                    <div class="row">
+                        <div class="col s12 m5">
+                          <div class="side-bar">
+                            <h5>Total Clients:</h5>
+                            <hr>
+                            <h5>Total Amount:</h5>
+                          </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="col center l6 s12">
+                    <div class="row">
+                        <table class="centered responsive-table table">
+                            <thead>
+                              <tr>
+                                  <th>Name</th>
+                                  <th>Loan Type</th>
+                                  <th>Documents</th>
+                                  <th>Payment</th>
+                              </tr>
+                            </thead>
+                    
+                            <tbody>
+                              <tr>
+                                <td>Alvin</td>
+                                <td>Eclair</td>
+                                <td>$0.87</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td>Alan</td>
+                                <td>Jellybean</td>
+                                <td>$3.76</td>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        
+                      </div>
+                </div>
+                
+                       
+        </div>
+        
+    </section>
+    
+    <section class="infomodal">
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4 id="info-modal-heading"> Sure Want to Logout ?</h4>
+                <p id="info-modal-content"></p>
+            </div>
+            <div class="modal-footer">
+                <a href="index.html" class="modal-close waves-effect btn-flat">Logout</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Footer Content</h5>
+                  <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2020 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+          </footer>
+              
+    </section>
+    
+</body>
+
+<!--J-Query-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!--custom js-->
+<script src="javascript/loader.js"></script>
+</html>

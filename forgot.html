@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon-->
+    <link rel="icon" href="#" type="image/icon" sizes="16x16">
+    
+    <!--M Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="css/forgot.css">
+    <title>Forgot</title>
+</head>
+<body>
+    <section class="fnavbar">
+        <nav class="nav-fixed">
+            <div class="nav-wrapper">
+              <a href="#" class="brand-logo">XYZ</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#" onclick="toggleModal();">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+                <li><a class="waves-effect waves-light btn button-first" href="login.html">Login</a></li>
+                <li><a class="waves-effect btn button-second" href="signup.html">Sign up</a></li>
+              </ul>
+            </div>
+            
+          </nav>
+        
+          <ul class="sidenav" id="mobile-demo">
+                <li><a href="#" onclick="toggleModal();">Home</a></li>
+                <li><a href="#" onclick="toggleModal();">About Us</a></li>
+                <li><a href="#" onclick="toggleModal();">Contact Us</a></li>
+                <li><a class="waves-effect waves-light btn side-nav" href="login.html">Login</a></li>
+                <li><a class="waves-effect waves-light btn side-nav" href="signup.html">Sign up</a></li>
+    
+          </ul>
+        </section>    
+    
+        <!--<section class="fslider">
+            <div class="slider">
+                <ul class="slides">
+                    <li>
+                        <img src="images/image 1.jpg" alt="image one" style="opacity: 0.5;">
+                        <div class="caption center-align white-text">
+                            <h3> Welcome to XYZ </h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/image 2.jpg" alt="image one" style="opacity: 0.5;">
+                        <div class="caption center-align white-text">
+                            <h3> Steps To Follow </h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/image 3.jpg" alt="image one" style="opacity: 0.5;">
+                        <div class="caption center-align white-text">
+                            <h3> Welcome to XYZ </h3>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/image 1.jpg" alt="image one" style="opacity: 0.5;">
+                        <div class="caption center-align white-text">
+                            <h3> Welcome to XYZ </h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>-->
+    
+        <section class="description">
+            <div class="section white center">
+                <h4 class="header">Forgot Password</h2>
+                <div class="row container center">
+                    <div class="col center l12 s12 ">
+                        <form class="col s12">
+                            <div class="row">
+                              <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                              </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <a class="waves-effect  btn submit">Submit</a>
+                                </div>
+                            </div>
+                          </form>
+                    </div>
+                    <div class="col center l6 s12">
+                            
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="infomodal">
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <h4 id="info-modal-heading"> Link Disabled </h4>
+                    <p id="info-modal-content">Sorry! All links are disabled as of now!</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="modal-close waves-effect btn-flat">Close</a>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!--<section class="footer">
+            <footer class="page-footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col l6 s12">
+                      <h5 class="white-text">Footer Content</h5>
+                      <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                      <h5 class="white-text">Links</h5>
+                      <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-copyright">
+                  <div class="container">
+                  © 2020 Copyright Text
+                  <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                  </div>
+                </div>
+              </footer>
+                  
+        </section>-->
+        
+    </body>
+    
+    <!--J-Query-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--custom js-->
+    <script src="javascript/loader.js"></script>
+    </html>

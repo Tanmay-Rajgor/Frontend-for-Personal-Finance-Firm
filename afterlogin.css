@@ -1,0 +1,41 @@
+.nav-fixed{
+    background-color: black;
+    
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: black;
+}
+
+/* footer properties */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.page-footer{
+    background-color: black;
+}
+
+.background-color{
+    background-color: black;
+}
+
+.back-color{
+    background-color: white;
+}
+
+.waves-effect.waves-light.btn.upload{
+    background-color: black;
+}
+
+.btn.document{
+    background-color: black;
+}

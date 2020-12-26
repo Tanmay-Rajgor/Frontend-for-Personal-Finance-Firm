@@ -1,0 +1,63 @@
+.nav-fixed{
+    background-color: black;
+    
+}
+
+.slider .indicators .indicator-item.active{
+    background-color: black;
+}
+
+/* footer properties */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.page-footer{
+    background-color: black;
+}
+
+/* card-panel */
+.card-panel{
+    margin-top: 50px;
+    width: 400px;
+    height: 600px;
+    background-color: black;
+}
+.row{
+    margin-top: 50px;
+}
+
+/* button properties */
+
+.waves-effect.button-first{
+    background-color:white;
+    color: black;
+  }
+  
+.waves-effect.button-second{
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+  }
+  
+.side-nav{
+    background-color: black; 
+  }
+
+.waves-effect.waves-light.btn.login{
+    background-color: black;
+}
+
+.table{
+   border: 3px solid black;
+   width: 400px;
+   height: 400px;
+}
