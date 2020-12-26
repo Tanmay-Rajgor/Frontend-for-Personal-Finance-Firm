@@ -27,7 +27,7 @@ main {
 /* card-panel */
 .card-panel.first{
   
-  width: 300px;
+  width: auto;
   height: 600px;
   background-color: black;
 }
