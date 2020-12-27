@@ -28,13 +28,13 @@
 
   .card-panel.first{
     
-    width: 400px;
+    width: auto;
     height: 600px;
   }
 
   .card-panel.second{
     
-    width: 400px;
+    width: auto;
     height: 600px;
   }
   
